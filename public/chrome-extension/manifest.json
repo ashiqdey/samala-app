@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Test Form Filler",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["jquery.js", "content.js"],
+      "matches": ["https://*/*"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_title": "Click here to autofill",
+    "default_popup": "index.html"
+  },
+  "permissions": ["tabs", "bookmarks", "scripting", "storage"],
+  "host_permissions": ["https://www.blogger.com/", "https://*.google.com/"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"]
+}

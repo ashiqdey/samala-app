@@ -1,0 +1,10 @@
+Options +MultiViews
+RewriteEngine On
+
+
+#remove .php
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+
+RewriteRule ^(.+)/([0-9]+)\/?$ index.php?param1=$1&param2=$2 [NC,L]

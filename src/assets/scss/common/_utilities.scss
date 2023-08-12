@@ -1,0 +1,66 @@
+// -----z-index-----
+@each $zindex, $value in $zindexs {
+  .zi-#{$zindex} {
+    z-index: $value;
+  }
+}
+
+// -----overflow-----
+.overflow-hidden {
+  overflow: hidden;
+}
+
+// -----opacity-----
+$opacitys: 0, 50, 60, 75, 100;
+@each $value in $opacitys {
+  .o-#{$value} {
+    opacity: $value * 0.01;
+  }
+}
+
+// -----overflow-----
+.of-h {
+  overflow: hidden;
+}
+.of-a {
+  overflow: auto;
+}
+.ofx-a {
+  overflow-x: auto;
+}
+
+// -----cursor-----
+.c-p {
+  cursor: pointer;
+}
+
+// -----reduce brightness in dark-----
+[theme='dark'] {
+  .dark-brightness-07 {
+    filter: brightness(0.7);
+  }
+  .dark-brightness-09 {
+    filter: brightness(0.9);
+  }
+}
+
+.tr-2 {
+  transition: 0.2s;
+}
+
+.rot-360 {
+  animation: rotate360 0.7s infinite linear;
+}
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.bf-blur5 {
+  backdrop-filter: blur(5px);
+}

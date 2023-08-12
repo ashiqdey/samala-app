@@ -1,0 +1,58 @@
+const products = [
+  {
+    id: '1',
+    title: 'Baidyanath Nagpur Arjunarishta 450 Ml For Healthy Blood Pressure And Sugar Levels, Heart Care',
+    category: 'Health care',
+    sprice: 189,
+    mrp: 195,
+    rating: '3.1',
+    image: 'https://cdn01.pharmeasy.in/dam/products_otc/Z73311/baidyanath-nagpur-arjunarishta-450-ml-2-1655532842.jpg?dim=200&dpr=1&q=100',
+  },
+  {
+    id: '2',
+    title: 'Pharmeasy Multivitamin Women - Overall Women Wellness - Builds Immunity - Bottle Of 60',
+    category: 'Health care',
+    sprice: 399.5,
+    mrp: 799,
+    rating: '3.9',
+    image: 'https://cdn01.pharmeasy.in/dam/products_otc/R76285/pharmeasy-multivitamin-women-bottle-of-60-2-1658471942.jpg?dim=200&dpr=1&q=100',
+  },
+  {
+    id: '3',
+    title: 'Colgate Zigzag Charcoal Medium Bristle Toothbrush - 4 Pcs',
+    category: 'Hygine',
+    sprice: 80.19,
+    mrp: 99,
+    rating: '4.2',
+    image: 'https://cdn01.pharmeasy.in/dam/products_otc/D41112/colgate-zigzag-charcoal-medium-bristle-toothbrush-4-pcs-1-1652697349.jpg?dim=200&dpr=1&q=100',
+  },
+  {
+    id: '4',
+    title: 'Upglam Sunscreen Lotion-50gm',
+    category: 'Beauty',
+    sprice: 199,
+    mrp: 199,
+    rating: '4.3',
+    image: 'https://cdn01.pharmeasy.in/dam/products_otc/C94919/upglam-sunscreen-lotion-50gm-2-1659342343.jpg?dim=200&dpr=1&q=100',
+  },
+  {
+    id: '5',
+    title: 'Baidyanath Nagpur Arjunarishta 450 Ml For Healthy Blood Pressure And Sugar Levels, Heart Care',
+    category: 'Health care',
+    sprice: 189,
+    mrp: 195,
+    rating: '3.1',
+    image: 'https://cdn01.pharmeasy.in/dam/products_otc/Z73311/baidyanath-nagpur-arjunarishta-450-ml-2-1655532842.jpg?dim=200&dpr=1&q=100',
+  },
+  {
+    id: '6',
+    title: 'Pharmeasy Multivitamin Women - Overall Women Wellness - Builds Immunity - Bottle Of 60',
+    category: 'Health care',
+    sprice: 399.5,
+    mrp: 799,
+    rating: '3.9',
+    image: 'https://cdn01.pharmeasy.in/dam/products_otc/R76285/pharmeasy-multivitamin-women-bottle-of-60-2-1658471942.jpg?dim=200&dpr=1&q=100',
+  },
+
+];
+export default products;

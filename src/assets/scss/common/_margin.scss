@@ -1,0 +1,28 @@
+// -----margin-----
+
+.m-auto {
+  margin: auto;
+}
+
+@each $key, $value in $spacings {
+  .m-#{$key} {
+    margin: $value * $spacing;
+  }
+  .mt-#{$key} {
+    margin-top: $value * $spacing;
+  }
+  .mr-#{$key} {
+    margin-right: $value * $spacing;
+  }
+  .mb-#{$key} {
+    margin-bottom: $value * $spacing;
+  }
+  // .ml-#{$key} {
+  //   margin-left: $value * $spacing;
+  // }
+
+  .my-#{$key} {
+    margin-top: $value * $spacing;
+    margin-bottom: $value * $spacing;
+  }
+}

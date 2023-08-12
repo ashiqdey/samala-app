@@ -1,0 +1,50 @@
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+.d-iflex {
+  display: inline-flex;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+// align-items
+.ai-fs {
+  align-items: flex-start;
+}
+.ai-c {
+  align-items: center;
+}
+.ai-fe {
+  align-items: flex-end;
+}
+
+// justify-content
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-c {
+  justify-content: center;
+}
+.jc-fs {
+  justify-content: flex-start;
+}
+.jc-fe {
+  justify-content: flex-end;
+}
+
+.fw-w {
+  flex-wrap: wrap;
+}
+
+// display - center
+.d-c {
+  @extend .d-flex;
+  @extend .ai-c;
+  @extend .jc-c;
+}

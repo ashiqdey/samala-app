@@ -1,0 +1,85 @@
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+
+.font1 {
+  font-size: 2.5rem;
+}
+.font2 {
+  font-size: 2rem;
+}
+.font3 {
+  font-size: 1.5rem;
+}
+.font4 {
+  font-size: 1.25rem;
+}
+.font5 {
+  font-size: 1rem;
+}
+.font6 {
+  font-size: 0.875rem;
+}
+
+.fw-n {
+  font-weight: normal;
+}
+.bold,
+.fw-500 {
+  font-weight: 500;
+}
+.bolder,
+.fw-600 {
+  font-weight: 600;
+}
+.boldest,
+.fw-700 {
+  font-weight: 700;
+}
+
+.text-cap {
+  text-transform: capitalize;
+}
+
+// -----truncate text with-----
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-truncate-2,
+.text-truncate-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.text-truncate-3 {
+  -webkit-line-clamp: 3;
+}
+
+.td-n {
+  text-decoration: none;
+}
+.td-u {
+  text-decoration: underline;
+}
+.td-d {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+.ws-pl {
+  white-space: pre-line;
+}

@@ -1,0 +1,36 @@
+// -----position-----
+$positions: (
+  a: absolute,
+  f: fixed,
+  r: relative,
+  s: sticky,
+);
+@each $key, $value in $positions {
+  .p-#{$key} {
+    position: $value;
+  }
+}
+
+// -----top, right, bottom , left-----
+.t-0 {
+  top: 0;
+}
+.t-50 {
+  top: 50%;
+}
+.r-0 {
+  right: 0;
+}
+.b-0 {
+  bottom: 0;
+}
+.l-0 {
+  left: 0;
+}
+.l-50 {
+  left: 50%;
+}
+
+.tt--50 {
+  transform: translate(-50%, -50%);
+}

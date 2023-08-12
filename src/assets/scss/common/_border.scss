@@ -1,0 +1,14 @@
+// -----border-radius-----
+@each $key, $value in $borderRadius {
+  .br-#{$key} {
+    border-radius: $value * $spacing;
+  }
+}
+
+.br-30 {
+  border-radius: 30px;
+}
+
+.border {
+  border: 1px solid var(--grey-300);
+}

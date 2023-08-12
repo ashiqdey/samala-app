@@ -1,0 +1,26 @@
+// -----padding-----
+@each $key, $value in $spacings {
+  .p-#{$key} {
+    padding: $value * $spacing;
+  }
+  .pt-#{$key} {
+    padding-top: $value * $spacing;
+  }
+  .pr-#{$key} {
+    padding-right: $value * $spacing;
+  }
+  .pb-#{$key} {
+    padding-bottom: $value * $spacing;
+  }
+  .pl-#{$key} {
+    padding-left: $value * $spacing;
+  }
+  .py-#{$key} {
+    padding-top: $value * $spacing;
+    padding-bottom: $value * $spacing;
+  }
+  .px-#{$key} {
+    padding-left: $value * $spacing;
+    padding-right: $value * $spacing;
+  }
+}

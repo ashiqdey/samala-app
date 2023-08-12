@@ -1,0 +1,46 @@
+// mui customisation, borderless input
+.input-flush fieldset {
+  display: none;
+}
+
+// td > input, bottom border input, color change for success and error state
+.MuiTableCell-root {
+  .MuiInput-underline:not(.Mui-error):after {
+    border-bottom-color: var(--focused-color) !important;
+  }
+}
+
+.MuiTextField-root {
+  &.flush {
+    .MuiInputLabel-root {
+      transform: translate(12px, 12px) scale(1);
+      &[data-shrink='true'] {
+        display: none;
+      }
+    }
+    .MuiFilledInput-underline {
+      padding-top: 0;
+      border-radius: 0.5rem;
+      &:before,
+      &:after {
+        display: none;
+      }
+    }
+
+    .MuiFilledInput-input {
+      padding: 12px 4px;
+    }
+  }
+}
+
+.Mui-error {
+  margin-left: 0;
+}
+
+.input {
+  font-size: 1em;
+  border: unset;
+  color: var(--grey-700);
+  background-color: transparent;
+  padding: 10px;
+}

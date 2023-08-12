@@ -1,0 +1,29 @@
+:root {
+  --maxwidth: 450px;
+}
+
+@media screen and (min-width: 769px) {
+  html,
+  body {
+    background-color: var(--grey-200) !important;
+  }
+
+  #root {
+    width: var(--maxwidth) !important;
+    margin: auto;
+  }
+
+  .nav-dock {
+    width: var(--maxwidth) !important;
+  }
+  .product-action {
+    width: var(--maxwidth) !important;
+    left: calc(50% - var(--maxwidth) / 2);
+    // transform: translateX(-50%);
+  }
+
+  .MuiDrawer-paper {
+    width: var(--maxwidth) !important;
+    left: calc(50% - (var(--maxwidth) / 2));
+  }
+}

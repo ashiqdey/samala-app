@@ -1,0 +1,20 @@
+// -----width-----
+$widths: (
+  33: 33.33,
+  50: 50,
+  100: 100,
+);
+@each $key, $value in $widths {
+  .w-#{$key} {
+    width: $value * 1%;
+  }
+}
+
+// -----height-----
+
+$heights: 100;
+@each $value in $heights {
+  .h-#{$value} {
+    height: $value * 1%;
+  }
+}

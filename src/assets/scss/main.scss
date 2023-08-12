@@ -1,0 +1,22 @@
+// VARIABLES
+@import './common/variable';
+
+// COMMON UTILITIES
+@import './common/common';
+
+// VENDOR & THIRD PARTY
+// @import './vendor/chart';
+// @import './vendor/simplebar';
+@import './vendor/dropzone';
+
+// @import './vendor/react-date-range';
+@import './mui/input';
+
+// COMPONENTS
+@import './components/product';
+
+@media screen and (max-height: 500px) {
+  .nav-dock {
+    display: none;
+  }
+}

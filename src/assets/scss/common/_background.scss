@@ -1,0 +1,40 @@
+.bs-cover {
+  background-size: cover;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+.c-inherit {
+  color: inherit;
+}
+
+.bg-grey-0 {
+  background-color: var(--grey-0);
+}
+.bg-grey-100 {
+  background-color: var(--grey-100);
+}
+
+.white-gradient {
+  // background-image: linear-gradient(red, var(--grey-0));
+  background-image: linear-gradient(var(--grey-100), var(--grey-0));
+}
+
+.app-wrapper {
+  min-height: 100vh;
+  position: relative;
+}
+
+#root {
+  background-color: var(--grey-0);
+  &:before {
+    content: '';
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    left: 0;
+    @extend .white-gradient;
+    z-index: 0;
+  }
+}
